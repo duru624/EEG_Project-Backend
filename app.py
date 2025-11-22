@@ -62,7 +62,7 @@ for root, dirs, files in os.walk(root_path):
 
 st.write(f"Total EEG data set: {len(edf_files)}")
 
-if st.button('Test Et'):
+if st.button('Test'):
     if len(edf_files) == 0:
         st.warning("EROR Data Set Couldn't Be Found.")
     else:
